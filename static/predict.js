@@ -56,10 +56,10 @@
                 happy.innerHTML = prediction[i].probability.toFixed(2);
                 document.getElementById("happy-progress").value = prediction[i].probability.toFixed(2);
             }
-            if(prediction[i].className =="sad-human-face"){
-                sad.innerHTML = prediction[i].probability.toFixed(2);
-                document.getElementById("sad-progress").value = prediction[i].probability.toFixed(2);
-            }
+            // if(prediction[i].className =="sad-human-face"){
+            //     sad.innerHTML = prediction[i].probability.toFixed(2);
+            //     document.getElementById("sad-progress").value = prediction[i].probability.toFixed(2);
+            // }
             if(prediction[i].className =="angry-human-face"){
                 angry.innerHTML = prediction[i].probability.toFixed(2);
                 document.getElementById("angry-progress").value = prediction[i].probability.toFixed(2);
