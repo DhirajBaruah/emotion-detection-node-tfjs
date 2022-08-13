@@ -165,19 +165,19 @@
 
 
         <div class="webcam">
-            <h3>THIS IS AN EMOTION DETECTION MODEL</h3>
+            <h3>THIS IS AN EMOTION DETECTION MODEL <br> <span>made by<br> DHIRAJ BARUAH, Instructor <br> Govt. ITI, Lahowal, OIL COE</span> </h3>
             <P>After pressing start please wait for some seconds then you can smile/laugh (with good expression without specs for better results)
                 or show your anger in front of the webcamera to get the prediction. Using some similar concept we can make an image detection attendance system.
             </P>
             <div id="webcam-container"></div>
             <div id="label" class="label">
-                <ul>
-                    <li>happy:<progress id="happy-progress" max="1"></progress><span id="happy"></span></li>
+                <ul class="emotion_list">
+                    <li>HAPPY:  <progress id="happy-progress" max="1"></progress><span id="happy"></span></li>
                     <!-- <li>sad:<progress id="sad-progress" max="1"></progress><span id="sad"></span></li> -->
-                    <li>angry:<progress id="angry-progress" max="1"></progress><span id="angry"></span></li>
+                    <li>ANGRY:  <progress id="angry-progress" max="1"></progress><span id="angry"></span></li>
                 </ul>
             </div>
-            <button type="button" onclick="init()">Start</button>
+            <button type="button" onclick="init()" class="button-85">Start</button>
         </div>
     </div>
 
