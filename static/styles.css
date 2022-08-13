@@ -1,0 +1,54 @@
+body{
+    background-color:black;
+    color:white;
+}
+.wrapper .webcam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.webcam p{
+    max-width: 900px;
+}
+
+.tag-line{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 2vh;
+    margin-bottom:70px;
+}
+.tag-line img{
+      width: 14vw;
+  }
+
+  /* centre logo svg anim */
+.svg-anim-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 40px; */
+    height:35vh;
+    /* top: 40px; */
+    margin-top: 20px;
+   
+  }
+  
+  #chakra {
+      animation-name: spin;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; 
+      transform-origin: center;
+      transform-box: fill-box;
+  }
+  
+  @keyframes spin {
+      0% {
+        transform: rotateZ(0deg);
+      }
+      100% {
+        transform: rotateZ(360deg);
+      }
+    }
+  
